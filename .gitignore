@@ -1,0 +1,31 @@
+# Entorno virtual
+venv/
+env/
+ENV/
+
+# Archivos de Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Archivos de audio (son muy pesados)
+*.ogg
+*.mp3
+*.wav
+*.m4a
+
+# Transcripciones generadas
+transcripcion.txt
+transcripcion_completa.txt
+transcripcion_con_tiempos.txt
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
